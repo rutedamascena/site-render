@@ -13,11 +13,11 @@ def hello_world():
 </head>
 <body>
     <h1>Clipping Automatizado</h1>
-    <form action="/submit" method="post">
-        <label for="termo">Termo de Busca:</label><br>
-        <input type="text" id="termo" name="termo"><br>
-        <label for="email">Seu E-mail:</label><br>
-        <input type="email" id="email" name="email"><br><br>
+    <form action="/" method="post">
+        <label>Termo de Busca:</label><br>
+        <input type="text" name="termo"><br>
+        <label>Seu E-mail:</label><br>
+        <input type="email" name="email"><br><br>
         <input type="submit" value="Buscar">
     </form>
 </body>
